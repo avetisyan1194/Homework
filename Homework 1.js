@@ -104,7 +104,7 @@ let b = +prompt("Number 2")
 	 } else if (a===12){ 
  	alert ("December")
 	 } else 
-   alert ("wrong number")
+   	alert ("wrong number")
 
 //EX7   
 let a = +prompt("Number 1")
