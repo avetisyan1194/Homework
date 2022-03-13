@@ -18,14 +18,13 @@ let c = +prompt("Number 3")
 	    } else 
         alert ("no")
 
-//Ex 3
-// let a=+prompt ("nuber 1")
-// let i= 0
-//     while (a !== 0){
-//     a = (a-a % 10 )/ 10
-//     if (a===9){i++}
-//     }
-//     alert (i)
+///Ex 3
+let a=+prompt ("nuber 1") 
+let i= 0
+    while (a !== 0){
+    a = (a-a % 10 )/ 10
+    if (a%10===9){i++}
+    conlole.log (i)}
 
 //Ex 4
 let a = prompt("Enter a value");
