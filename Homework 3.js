@@ -41,12 +41,12 @@ let num = prompt();
 let str = Array.num;
 let result = [str[0]];
   
-for(let i=0; i<str.length; i++)
+for(let i=0; i<=str.length; i++)
   {
     if((str[i]%2 === 0)&&(str[i+1]%2 === 0))
      {
-      result.push('-')
-      result.push(str[i])      ;
+      result.push(str[i])
+      result.push('-');
      }
     else
      {
